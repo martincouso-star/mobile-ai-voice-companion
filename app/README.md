@@ -1,17 +1,12 @@
-# voice_companion
+# Voice companion app
 
-A new Flutter project.
+Flutter client for the Mobile AI Voice Companion. Setup, the backend URL, and how speech and text-to-speech are wired are in the repository [README](../README.md).
 
-## Getting Started
+From this directory:
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run --dart-define=BACKEND_URL=http://10.0.2.2:8080
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`flutter test` covers the conversation controller and the chat screen with fake speech, fake speech synthesis, and a fake HTTP client.
