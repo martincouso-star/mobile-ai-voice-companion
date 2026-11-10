@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+backend/.env
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/.idea/
+app/*.iml
+app/android/.gradle/
+app/android/local.properties
+app/android/captures/
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/flutter_export_environment.sh
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!infra/terraform.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

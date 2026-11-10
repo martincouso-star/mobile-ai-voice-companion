@@ -1,0 +1,23 @@
+name: voice_companion
+description: Push-to-talk voice companion for Android and iOS.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^7.5.0
+  flutter_tts: ^4.2.5
+  http: ^1.6.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

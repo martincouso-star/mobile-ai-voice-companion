@@ -1,0 +1,10 @@
+project_id = "your-gcp-project"
+region     = "us-central1"
+image      = "us-central1-docker.pkg.dev/your-gcp-project/voice-companion/api:latest"
+
+# llm_provider defaults to "mock", which needs no API key.
+# For a hosted model, set the provider and the Secret Manager secret id
+# (the name of the secret, never the key value):
+# llm_provider            = "openai"
+# openai_api_key_secret   = "voice-companion-openai-api-key"
+# allow_unauthenticated   = false
